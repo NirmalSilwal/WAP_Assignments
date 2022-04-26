@@ -1,0 +1,23 @@
+b {
+    color:peru; 
+}
+
+#bk1id {
+    color:red;
+}
+#aboutmeid {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#bknameid {
+    font-family: cursive;
+}
+body {
+    background-color: lightblue;
+}
+.aboutmeclass {
+    background-image: url("image/mountain.jpeg");
+}
+.indexbody {
+    background-image: url("image/backgroundimage.jpeg");
+    background-repeat:repeat;
+}
