@@ -1,0 +1,51 @@
+form {
+    background-color: #cbcdf6;
+    ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: auto;
+}
+
+#personalitytype {
+    color: red;
+}
+
+form {
+    display: inline-block;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+    padding: 5px;
+    margin: auto;
+}
+
+#submitbtn {
+    text-decoration: rebeccapurple;
+}
+
+fieldset {
+    border: 2px solid gray;
+    border-style: solid;
+    padding: 10px;
+    background-color: #cfd1f6;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+}
+
+legend {
+    padding: 0.2em 0.5em;
+    color: gray;
+    font-size: 90%;
+    position: relative;
+
+    border: 1px rgb(192, 192, 192);
+    border-style: solid;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 2px 2px grey;
+}
+
+
+}
