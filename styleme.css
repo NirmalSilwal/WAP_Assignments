@@ -1,35 +1,66 @@
 b {
-    color:peru; 
+    color: peru;
 }
 
 a {
-    color:red;
+    color: red;
 }
+
 #aboutmeid {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 ol#bknameid {
     font-family: cursive;
 }
+
 body {
-    background-color: lightblue;
+    background-color: rgb(210, 218, 220);
 }
+
 .aboutmeclass {
     background-image: url("image/mountain.jpeg");
 }
+
 .indexbody {
     background-image: url("image/backgroundimage.jpeg");
-    background-repeat:repeat;
+    background-repeat: repeat;
 }
+
 a:link {
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration:underline 
- }
- 
- p::first-letter {
+    text-decoration: underline
+}
+
+p::first-letter {
     color: #ff0000;
     font-size: xx-large;
+}
+
+body {
+font-family:'Courier New', Courier, monospace;
+}
+footer {
+    margin: auto;
+    width: 100%;
+    border: 3px rgb(2, 23, 2);
+    padding: 12px;
+    background-color: rgb(194, 198, 201);
+}
+
+.ppic {
+    background: rgb(106, 106, 125);
+    display: inline-block;
+}
+
+.listallitems {
+    text-align: justify;
+    
+}
+li {
+    font-size: large;
+    text-decoration: azure;
 }
