@@ -1,0 +1,20 @@
+h1 {
+    color: rgb(5, 74, 74);
+    text-align: center;
+}
+.myform {
+    text-align: left;
+}
+#sname, #sid, #sassign, #sintake, #scheck {
+    color: blueviolet;
+}
+#ssubmit {
+    color: rgb(129, 116, 116);
+    font-size: medium;
+}
+.container {
+    margin: auto;
+    width: 50%;
+    border: 3px dashed rgb(2, 23, 2);
+    padding: 10px;
+}

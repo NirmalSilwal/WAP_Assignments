@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" href="grades.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Retrieve your grade</h1><br/>
+
+
+        <form action="https://mumstudents.org/params.php" method="post">
+
+            <label for="fname" id="sname">Student Name:</label>
+            <input type="text" id="fname" name="fname">&emsp;
+
+            <label for="fname" id="sid">Student Id:</label>
+            <input type="text" id="sid" name="sid">
+            <br />
+            <br />
+
+            <label for="assignment" id="sassign">Assignment for:</label>
+            <select id="assignment" name="assignment">
+                <option value="select" selected>--Select</option>
+                <option value="FPP">FPP</option>
+                <option value="MPP">MPP</option>
+                <option value="WAP">WAP</option>
+                <option value="EA">EA</option>
+                <option value="WAA">WAA</option>
+                <option value="Algorithm">Algorithm</option>
+            </select>
+
+            &emsp;
+
+            <label id="sintake">Admission intake:</label>
+            <input type="radio" id="spring" name="admissionIntake" value="Spring">
+            <label for="spring">Spring</label>
+
+            <input type="radio" id="fall" name="admissionIntake" value="Fall">
+            <label for="fall">Fall</label>
+            <br /><br />
+
+            <label for="checkbox" id="scheck">All information is correct.</label>
+            <input type="checkbox" id="correct" name="correct" value="Correct">
+            <br /><br />
+
+            <div class="myform">
+                <input type="submit" value="Get Grade!" id="ssubmit">
+            </div>
+        </form>
+
+        <br /><br />
+    </div>
+</body>
+
+</html>
