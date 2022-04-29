@@ -41,8 +41,9 @@ p::first-letter {
 }
 
 body {
-font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 footer {
     margin: auto;
     width: 100%;
@@ -52,16 +53,15 @@ footer {
 }
 
 .ppic {
-    background: rgb(106, 106, 125);
     display: inline-block;
     border-radius: 10%;
-    border: dotted;
 }
 
 .listallitems {
     text-align: justify;
-    
+
 }
+
 li {
     font-size: large;
     text-decoration: azure;
