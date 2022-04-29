@@ -55,8 +55,8 @@ body {
     grid-template-columns: 47% 47%;
     /* border: red 2px;*/
 
-    grid-auto-rows: minmax(50px auto);
-    grid-auto-columns: minmax(50px auto);
+    grid-auto-rows: minmax(50%, auto);
+    grid-auto-columns: minmax(50%, auto);
     column-gap: 2%;
 }
 
