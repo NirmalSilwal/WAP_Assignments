@@ -9,3 +9,4 @@ WAP assignments April/May 2022 assignment solutions
 - Day 3 homework [live demo:](https://nirmalsilwal.github.io/WAP_Assignments/Homework2/tmnt.html)
 
 - Day 4 lab [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Homework3/gradesexercise.html)
+    - Day 4 signup form [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Homework3/signup.html)
