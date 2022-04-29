@@ -54,6 +54,8 @@ footer {
 .ppic {
     background: rgb(106, 106, 125);
     display: inline-block;
+    border-radius: 10%;
+    border: dotted;
 }
 
 .listallitems {
