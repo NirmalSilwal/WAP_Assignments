@@ -48,3 +48,11 @@ legend {
     background-color: white;
     box-shadow: 2px 2px grey;
 }
+button {
+    text-align: center;
+    margin-top: 6px;
+    font-weight: bold;
+    border: pink 2px;
+    box-shadow: 3px 3px;
+    background-color: rgb(249, 163, 177);
+}
