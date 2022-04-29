@@ -1,16 +1,13 @@
 form {
     background-color: #cbcdf6;
-    ;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: auto;
+    display: inline-block;
     width: auto;
 }
 
 #personalitytype {
     color: red;
-}
-
-form {
-    display: inline-block;
 }
 
 label {
@@ -48,6 +45,7 @@ legend {
     background-color: white;
     box-shadow: 2px 2px grey;
 }
+
 button {
     text-align: center;
     margin-top: 6px;
@@ -55,4 +53,20 @@ button {
     border: pink 2px;
     box-shadow: 3px 3px;
     background-color: rgb(249, 163, 177);
+}
+
+.container {
+    margin: auto;
+    width: fit-content;
+    border: 3px rgb(2, 23, 2);
+    padding: 10px;
+    background-color: rgb(239, 242, 245);
+}
+
+footer {
+    margin: auto;
+    width: 34.3%;
+    border: 3px rgb(2, 23, 2);
+    padding: 8px;
+    background-color: rgb(194, 198, 201);
 }
