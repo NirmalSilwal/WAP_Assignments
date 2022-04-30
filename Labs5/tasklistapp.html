@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List Application</title>
+
+    <link href="tasklist.css" type="text/css" rel="stylesheet" />
+    <script src="tasklst.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h3>Task List</h3>
+        </div>
+
+        <div class="mainbody">
+
+            <div class="left-body">
+                <div class="layout-list">
+
+                    <div>
+                        Task<br />
+                        <input type="text" size="50" id="tasklist1">
+                    </div>
+                    <div>
+                        <button type="button" id="add">Add Task</button>
+                    </div>
+                    <div>
+                        <button type="button" id="clear">Clear Tasks</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-body">
+                Task List<br />
+                <textarea id="alltasks" name="alltasks" rows="6" cols="50"></textarea>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
