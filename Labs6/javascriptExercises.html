@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Exercises</title>
+    <link rel="stylesheet" href="jsexercise.css">
+</head>
+
+<body>
+
+    <h1>Javascript Exercises solution:</h1>
+    <pre>
+1. What is the difference between the following 2 statements? <div class="code">
+    setTimeout(booyah, 2000);
+    setTimeout(booyah(), 2000);</div>
+    </pre>
+
+    <div class="solution">
+        <span>Answer:</span>
+        In this code snippet, first line will invoke booyah function after 2000 milliseconds.
+        Second line of code with booyah() inside setTimeout means this function booyah() will be
+        called immediately.
+
+    </div>
+    <br />
+    <pre>
+2. What do the following 2 alerts display (answer without running the code)?<div class="code">
+    var myfunc = function(a, x) {
+        return a * x;
+    };
+    var x = myfunc(2, 3);
+    var y = myfunc;
+    alert(x);
+    alert(y(2,3));</div>
+    </pre>
+
+    <div class="solution">
+        <span>Answer:</span>
+        Both the alert will display 6 as pop up in the browser which comes from 2 * 3 input fields.
+        So 6 will be displayed / popped up twice.
+
+    </div>
+
+    <br />
+    <pre>
+3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that
+says “BOOYAH!” <br/>setTimeout(booyah1, 2000); <br/>setTimeout(booyah2(), 2000); 
+</pre>
+
+
+    <div class="solution">
+        <span>Answer:</span>
+        <pre class="codesolution">
+function booyah1() {
+    alert("BOOYAH!");
+}            
+
+function booyah2() {
+    return function() {
+        alert("BOOYAH!");
+    };
+}
+
+setTimeout(booyah1, 2000);
+setTimeout(booyah2(), 2000);
+</pre>
+    </div>
+
+    <br />
+    <pre>
+4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons
+for using it)?
+    </pre>
+
+    <div class="solution">
+        <span>Answer:</span>
+        Unobtrusive JavaScript is a way of writing JavaScript so that your site visitors are not
+        shut out of your site for one of these reasons—even if your JavaScript is not working
+        correctly for them, they should still be able to use your site, albeit at a more basic level.
+        <br /><br />
+        One of the practical application of using Unobtrusive JavaScript is <span class="highlightme">separating the
+        javascript code from the html code</span> by writing all javascript code inside .js file. The main reasons for using this
+        is code will be less error prone, debugging gets easier, easy to update the code. The idea is that
+        javascript code should be means to enhance our web page rather than absolute neccessary elements
+        to make the website.
+    </div>
+
+</body>
+
+</html>

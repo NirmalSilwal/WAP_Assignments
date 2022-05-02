@@ -1,0 +1,36 @@
+pre {
+    color: rgb(46, 49, 48);
+    font-size: 15pt;
+}
+
+div>code {
+    padding: 1pt;
+    color: rebeccapurple;
+}
+
+div.solution, .codesolution {
+    color: rgb(17, 89, 17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16pt;
+}
+
+span {
+    color: rgb(82, 63, 206);
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: darkgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 220;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.highlightme {
+    font-weight: bold;
+    color: blueviolet;
+}
