@@ -14,3 +14,6 @@ WAP assignments April/May 2022 assignment solutions
 - Day 5 lab 
     - first assignment [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs5/tasklistapp.html)
     - second assignment [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs5/tipcalculator.html)
+
+- Day 6 lab
+     - first assignment of javascript exercises [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs6/javascriptExercises.html)
