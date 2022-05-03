@@ -18,3 +18,5 @@ WAP assignments April/May 2022 assignment solutions
 - Day 6 lab
      - first assignment of javascript exercises [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs6/javascriptExercises.html)
      - second assignment Text Decorator [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs6/decoratemytext.html)
+
+- Day 7 lab Bank Application [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs7/bankaccount.html)
