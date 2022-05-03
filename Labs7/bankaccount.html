@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Application</title>
+
+    <link rel="stylesheet" href="bankaccount.css">
+    <script src="bank.js"></script>
+
+</head>
+
+<body>
+    <div id="create-account">
+        <div class="form">
+            <div>
+                <label for="AccountName">Account Name:</label>
+            </div>
+            <div>
+                <input type="text" name="AccountName" id="accountName">
+            </div>
+            <div>
+                <label for="Deposit">Deposit:</label>
+            </div>
+            <div>
+                <input type="text" name="Deposit" id="deposit-Id">
+            </div>
+            <div>
+                <button id="create-Id">Create New Account</button>
+            </div>
+            <div></div>
+            <div>
+                <textarea rows="8" cols="100" id="listData-Id"></textarea>
+            </div>
+        </div>
+    </div>
+    <div id="deposit-debit">
+        <button id="deposit-button">Deposit</button>
+        <button id="debit-button">Debit</button>
+    </div>
+    <div class="deposit-account">
+        <div class="form">
+            <div>
+                <label>Select Account:</label>
+            </div>
+            <div>
+                <select id="accountId">
+                    <option value=""> --select--
+                    </option>
+                </select>
+            </div>
+            <div class="depositField">
+                <label>Deposit</label>
+            </div>
+            <div class="depositField">
+                <input type="text" id="depositTextId">
+            </div>
+            <div class="debitField">
+                <label>Debit</label>
+            </div>
+            <div class="debitField">
+                <input type="text" id="debitTextId">
+            </div>
+            <div>
+                <button class="depositField" id="submit-Deposit">Submit Deposit</button>
+                <button class="debitField" id="submit-Debit">Submit Debit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<!--
+<body>
+    <div>
+        <label for="accountnum">Acount Name:</label>
+        <input type="text" id="accountnum" name="accountnum"> <br /><br />
+
+        <label for="deposit">Deposit:</label>
+        <input type="text" id="deposit" name="deposit"><br /><br />
+
+        <button id="createbtn">Create new account</button> <br /><br />
+
+        <textarea id="accounttxtarea" name="accounttxtarea" rows="7" cols="60"></textarea>
+
+    </div>
+
+    <div id="deposit-debit">
+        <button id="deposit-button">Deposit</button>
+        <button id="debit-button">Debit</button>
+    </div>
+    <div class="deposit-account">
+        <div class="form">
+            <div>
+                <label>Select Account:</label>
+            </div>
+            <div>
+                <select id="accountId">
+                    <option value=""> --select--
+                    </option>
+                </select>
+            </div>
+            <div class="depositField">
+                <label>Deposit</label>
+            </div>
+            <div class="depositField">
+                <input type="text" id="depositTextId">
+            </div>
+            <div class="debitField">
+                <label>Debit</label>
+            </div>
+            <div class="debitField">
+                <input type="text" id="debitTextId">
+            </div>
+            <div>
+                <button class="depositField" id="submit-Deposit">Submit Deposit</button>
+                <button class="debitField" id="submit-Debit">Submit Debit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+-->
+</html>
