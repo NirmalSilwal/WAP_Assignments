@@ -1,6 +1,9 @@
                                 jQuery Quiz II
 
 
+------------------------------------------------------------------------------------------------------
+
+
 1. Which, if any, of the following 3 code fragments are equivalent? Explain why they are different, if
 they are. Explain why they can have different parameters and be equivalent, if they are equivalent.
 
@@ -16,10 +19,14 @@ $("li").each(function() {
 $("li").each(function(idx) {
     $(this).css(“color”, “yellow”); });
 
-Answer: 
+Answer:
+********
+
 Here, code fragment 2 and code fragment 3 are equivalent. Both function apply css of color yellow
 on current object using this reference. Even their parameters are different, the concept of 
 Rest parameters says you can have variable number of agruments in the function and use which you need.
+
+------------------------------------------------------------------------------------------------------
 
 
 2. Write a jQuery expression to find all divs on a page that include an unordered list in them, and make
@@ -42,9 +49,14 @@ their text color be blue.
 
 
 Answer:
+********
+
 $(function() {
    $('div > ul').css('color','blue');
 });
+
+
+------------------------------------------------------------------------------------------------------
 
 
 3. Write jQuery code to append the following div element (and all of its contents) dynamically to the body
@@ -66,6 +78,7 @@ HTML:
 
 
 Answer:
+********
 
 $(function() {
    $('<div><h1>JQuery Core</h1></div>').appendTo('body');
