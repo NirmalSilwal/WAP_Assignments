@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtr=device-widtr, initial-scale=1.0">
+    <title>ASCIImation</title>
+    <script rel="stylesheet" src="./jquery-3.6.0.min.js"></script>
+    <script rel="stylesheet" src="./animations.js"></script>
+    <link rel="stylesheet" type="text/css" href="./ascii.css">
+    <script rel="stylesheet" src="./ascii.js"></script>
+</head>
+
+<body>
+    <div class="mainDiv">
+        <h2>
+            CS472: ASCII Animation Viewer
+        </h2>
+        <textarea cols="80" rows="20" id="mytextarea"></textarea>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <fieldset>
+                                <legend>Play Controls:</legend>
+                                <button id="start">Start</button>
+                                <button id="stop">Stop</button>
+                            </fieldset>
+                        </th>
+                        <th>
+                            <fieldset>
+                                <legend>Animation:</legend>
+                                <select id="animation">
+                                    <option value="blank" selected>Blank</option>
+                                    <option value="exercise">Exercise</option>
+                                    <option value="juggler">Juggler</option>
+                                    <option value="bike">Bike</option>
+                                    <option value="dive">Dive</option>
+                                    <option value="custom">Custom</option>
+                                </select>
+                            </fieldset>
+                        </th>
+                        <th>
+                            <fieldset>
+                                <legend>Size:</legend>
+                                <select id="size">
+                                    <option value="medium" selected>Medium</option>
+                                    <option value="tiny">Tiny</option>
+                                    <option value="small">Small</option>
+                                    <option value="large">Large</option>
+                                    <option value="extraLarge">Extra Large</option>
+                                    <option value="xxl">XXL</option>
+                                </select>
+                            </fieldset>
+                        </th>
+                        <th>
+                            <fieldset>
+                                <legend>Speed:</legend>
+                                <input type="checkbox" id="speed" value="turbo">
+                                <label>Turbo</label>
+                            </fieldset>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <div>
+        <p style="float: right; margin-right: 15px;">
+            <a href="https://validator.w3.org/" target="_blank">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="Valid CSS!" />
+            </a>
+            <br>
+            <a href="https://jigsaw.w3.org/css-validator" target="_blank">
+                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+            <!-- <br>
+            <a href="https://webster.cs.washington.edu/jslint/?referer" target="_blank">
+                <img src="https://webster.cs.washington.edu/w3c-js.png" alt="Valid JS" />
+            </a> -->
+        </p>
+
+    </div>
+</body>
+
+</html>
