@@ -26,3 +26,5 @@ WAP assignments April/May 2022 assignment solutions
         - 2nd quiz - [link](https://github.com/NirmalSilwal/WAP_Assignments/blob/main/Labs9/Quiz/jQueryQuiz2.txt)
 
 - Day 8-9 lab ASCII Animation [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs9/Ascii%20animation/ascii.html)
+
+- Day 10/11 lab Mouse Maze [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs11/maze.html)
