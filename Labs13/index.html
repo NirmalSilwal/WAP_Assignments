@@ -8,14 +8,46 @@
     <title>Simple Calculator</title>
 
     <link rel="icon" type="image/x-icon" href="calculator.png">
-    <link rel="stylesheet" href="./mystyle.css">
-    
+    <!-- <link rel="stylesheet" href="./mystyle.css"> -->
+    <style>
+        #maindiv {
+            margin: auto;
+            width: 20%;
+            border: 2px solid #73AD21;
+            border-radius: 10px;
+            padding: 40px;
+            background-color: azure;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            height: fit-content;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        body {
+            background-image: url('./comprologo.png');
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        button {
+            color: black;
+            font-size: 18px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
     <h2>Simple Calculator</h2>
     <div id="maindiv">
-       
+
         <form method="post">
 
             <div>
@@ -40,7 +72,7 @@
                     <option value="divide">Divide</option>
                 </select>
             </div>
-            
+
             <br />
             <div>
                 <button type="submit">Submit</button>
