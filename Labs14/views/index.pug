@@ -1,0 +1,21 @@
+html
+  head
+    title= title
+    style
+      include style.css
+  body
+    div#test
+      h1= title
+      p= 'Your current score is ' + score + '.'
+      if hiddenResult
+        p= 'You have completed the Number Quiz, with a score of ' + score + ' out of 5.'
+      if hidden
+        form(role='form' method='POST' action='/submit')
+          p= 'Guess the next number in the sequence.'
+          p= question
+          div
+            label(for='answer') Your Answer:
+            input#answer(type='text', name='answer')
+            input#number(type="hidden", name="number" value= number)
+            input#score(type="hidden", name="score" value= score)
+          button(type="submit") Submit
