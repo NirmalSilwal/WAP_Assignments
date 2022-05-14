@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fifteen Puzzle Lab</title>
+
+    <!-- instructor-provided JavaScript files; do not modify -->
+    <script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js" type="text/javascript"></script>
+    <script src="http://www.cs.washington.edu/education/courses/cse190m/12sp/homework/7/grading.js"
+        type="text/javascript"></script>
+
+    <!-- your files that you will write -->
+    <link href="./puzzle.css" type="text/css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./puzzle.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <h1>CSE 190 M Fifteen Puzzle</h1>
+
+    <p>
+        The goal of the fifteen puzzle is to un-jumble its fifteen squares
+        by repeatedly making moves that slide squares into the empty space.
+        How quickly can you solve it?
+    </p>
+
+    <div id="puzzlearea">
+        <!-- the following are the actual fifteen puzzle pieces -->
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+    </div>
+
+    <p id="controls">
+        <button id="shufflebutton">Shuffle</button>
+    </p>
+
+    <p>
+        American puzzle author and mathematician Sam Loyd is often falsely
+        credited with creating the puzzle; indeed, Loyd claimed from 1891
+        until his death in 1911 that he invented it.
+        The puzzle was actually created around 1874 by Noyes Palmer Chapman,
+        a postmaster in Canastota, New York.
+    </p>
+    <h3 id="test"></h3>
+
+    <div id="w3c">
+        <a href="http://validator.w3.org/">
+            <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="Valid HTML" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/">
+            <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS" /></a>
+        <a href="https://www.jslint.com/">
+            <img src="jsLint.png" alt="Valid JS" /></a>
+    </div>
+</body>
+
+</html>
