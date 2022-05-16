@@ -30,3 +30,5 @@ WAP assignments April/May 2022 assignment solutions
 - Day 10/11 lab Mouse Maze [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs11/maze.html)
 
 - Lab 15 APOD lab [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs15/APOD/apod.html)
+    - Puzzle lab [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs15/Puzzle/puzzle.html)
+
