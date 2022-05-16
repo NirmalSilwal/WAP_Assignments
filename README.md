@@ -31,4 +31,5 @@ WAP assignments April/May 2022 assignment solutions
 
 - Lab 15 APOD lab [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs15/APOD/apod.html)
     - Puzzle lab [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs15/Puzzle/puzzle.html)
+    - APOD fetch lab [live demo](https://nirmalsilwal.github.io/WAP_Assignments/Labs15/APOD2/apodfetch.html)
 
