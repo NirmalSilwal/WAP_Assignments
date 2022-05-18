@@ -1,4 +1,8 @@
-# WAP_Assignments
+# WAP Assignments
+### *Web Application Programming - MSCS course at Maharishi International University, Fairfield IA, USA*
+
+---
+
 WAP assignments April/May 2022 assignment solutions
 
 - Day 1 lab work [live demo](https://nirmalsilwal.github.io/WAP_Assignments/)
